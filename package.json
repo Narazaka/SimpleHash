@@ -1,0 +1,16 @@
+{
+  "name": "net.narazaka.simple-hash",
+  "version": "1.0.0",
+  "displayName": "Simple Hash",
+  "description": "Udon compatible 32bit hash lib (FNV1a32)",
+  "author": {
+    "name": "Narazaka",
+    "url": "https://github.com/Narazaka"
+  },
+  "license": "Zlib",
+  "type": "tool",
+  "url" : "https://github.com/Narazaka/SimpleHash.git",
+  "vpmDependencies": {
+    "com.vrchat.worlds": ">=3.0.9"
+  }
+}
