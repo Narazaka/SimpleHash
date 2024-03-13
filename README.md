@@ -17,11 +17,13 @@ Udon compatible 32bit hash lib
 
 ```csharp
 using Narazaka.SimpleHash;
-var playerHash = FNV1a32.ComputeHash(Networking.LocalPlayer.displayName);
+var playerHash = FNV1a32String.ComputeHash(Networking.LocalPlayer.displayName);
 ```
 
 ## 更新履歴
 
+- 2.0.0
+  - U#での非互換を解消
 - 1.0.0
   - リリース
 
