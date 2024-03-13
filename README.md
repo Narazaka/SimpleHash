@@ -2,7 +2,7 @@
 
 Udon compatible 32bit hash lib
 
-- FNV1a32
+- FNV1a32: 高速で単純な32bit uint hash
 
 ## Install
 
@@ -11,6 +11,9 @@ Udon compatible 32bit hash lib
 3. ワールドプロジェクトの「Manage Project」から「Simple Hash」をインストールします。
 
 ## Usage
+
+- [UdonEncoding](https://github.com/koyashiro/udon-encoding) を同時にインストールするとstringから直接ハッシュに出来ます。
+- ユーザー名ベースでの判定をオーナーで配列管理したいときなどに1ユーザー当たりデータを減らせます。
 
 ```csharp
 using Narazaka.SimpleHash;
