@@ -1,7 +1,10 @@
 {
-    "name": "Narazaka.SimpleHash",
+    "name": "Narazaka.SimpleHash.UdonEncoding",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "Koyashiro.UdonEncoding",
+        "Narazaka.SimpleHash"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

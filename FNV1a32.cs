@@ -15,12 +15,5 @@ namespace Narazaka.SimpleHash
             }
             return hash;
         }
-
-#if HAS_UDON_ENCODING
-        public static uint ComputeHash(string str)
-        {
-            return ComputeHash(Koyashiro.UdonEncoding.UdonUTF8.GetBytes(str));
-        }
-#endif
     }
 }
