@@ -1,6 +1,6 @@
 {
   "name": "net.narazaka.simple-hash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Simple Hash",
   "description": "Udon compatible 32bit hash lib (FNV1a32)",
   "author": {
