@@ -22,6 +22,8 @@ var playerHash = FNV1a32String.ComputeHash(Networking.LocalPlayer.displayName);
 
 ## 更新履歴
 
+- 2.0.1
+  - UdonEncodingないときにエラーにならないように
 - 2.0.0
   - U#での非互換を解消
 - 1.0.0
