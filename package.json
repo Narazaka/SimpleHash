@@ -12,5 +12,6 @@
   "url" : "https://github.com/Narazaka/SimpleHash.git",
   "vpmDependencies": {
     "com.vrchat.worlds": ">=3.5.2"
-  }
+  },
+  "unity": "2022.3"
 }
