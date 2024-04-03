@@ -12,7 +12,6 @@ Udon compatible 32bit hash lib
 
 ## Usage
 
-- [UdonEncoding](https://github.com/koyashiro/udon-encoding) を同時にインストールするとstringから直接ハッシュに出来ます。
 - ユーザー名ベースでの判定をオーナーで配列管理したいときなどに1ユーザー当たりデータを減らせます。
 
 ```csharp
@@ -22,6 +21,9 @@ var playerHash = FNV1a32String.ComputeHash(Networking.LocalPlayer.displayName);
 
 ## 更新履歴
 
+- 3.0.0
+  - System.Text.Encoding対応
+  - Unity 2022/VRCSDK 3.5.2以上必要
 - 2.0.1
   - UdonEncodingないときにエラーにならないように
 - 2.0.0
