@@ -1,6 +1,5 @@
 {
     "name": "Narazaka.SimpleHash.UdonEncoding",
-    "rootNamespace": "",
     "references": [
         "Koyashiro.UdonEncoding",
         "Narazaka.SimpleHash"
@@ -11,7 +10,15 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
+    "defineConstraints": [
+        "HAS_UDON_ENCODING"
+    ],
+    "versionDefines": [
+        {
+            "name": "net.koyashiro.udonencoding",
+            "expression": "0",
+            "define": "HAS_UDON_ENCODING"
+        }
+    ],
     "noEngineReferences": false
 }
